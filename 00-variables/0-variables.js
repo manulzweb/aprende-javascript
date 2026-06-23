@@ -2,16 +2,16 @@
 var nombre // declaración (undefined)
 nombre = "Pedro" // asignación 
 nombre = "Maria" // reasignación 
-var nombre = "Juan" // redeclaración y reasignación 
+var nombre = "Cesar" // redeclaración y reasignación 
 
 // Con let
 let nombre // declaración (undefined) 
 nombre = "Pedro" // asignación 
 nombre = "Maria" // reasignación 
-let nombre = "Juan" // SyntaxError: Identifier 'nombre' has already been declared. 
+let nombre = "Cesar" // SyntaxError: Identifier 'nombre' has already been declared. 
 
 // Con const 
 const nombre // SyntaxError: Missing initializer in const declaration. 
 const nombre = "Pedro" // declaración y asignación 
 nombre = "Maria" // TypeError: Assignment to constant variable.
-const nombre = "Juan" // SyntaxError: Identifier 'nombre' has already been declared.
+const nombre = "Cesar" // SyntaxError: Identifier 'nombre' has already been declared.
